@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mojdeh Sana - Computer Engineering Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mojdeh Sana</h1>
+        <p>Computer Engineering Student at Simon Fraser University</p>
+    </header>
+
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mojdeh Sana, a dedicated computer engineering student at Simon Fraser University. My passion for technology is rooted in its potential to innovate and solve real-world problems...</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>University:</strong> Simon Fraser University</p>
+        <p><strong>Major:</strong> B.S. in Computer Engineering</p>
+        <p><strong>Achievements:</strong> Consistent participant in the annual SFU Tech Hackathon, Active member of the SFU Computer Engineering Society</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Home Automation Prototype:</strong> Developed a basic prototype for automating home lighting using Arduino.</li>
+            <li><strong>Robotics Club Member:</strong> Contributed to a team project focused on building a line-following robot.</li>
+            <li><strong>Open Source Enthusiast:</strong> Regularly contribute to open-source projects, mainly focusing on user experience enhancements.</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Programming Languages:</strong> Proficient in Java, Python, and C++</p>
+        <p><strong>Technologies:</strong> Familiar with IoT basics and introductory machine learning concepts</p>
+        <p><strong>Software Tools:</strong> Skilled in using MATLAB, Arduino, and Raspberry Pi for various academic projects</p>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p>Internship at Local Tech Startup: Assisted in developing and testing software applications for small business solutions.</p>
+    </section>
+
+    <section id="volunteer">
+        <h2>Volunteer Experience</h2>
+        <p>Coding Workshops for Youth: Volunteer instructor for weekend coding workshops at the community center.</p>
+        <p>Participation in Charity Hackathons: Regular participant in hackathons aiming to develop tech solutions for local charities.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Passions and Hobbies</h2>
+        <p>I am passionate about the role of technology in environmental sustainability. In my leisure time, I love exploring nature trails, keeping up with the latest tech news, and attending tech community events.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mojdeh.sn@email.com">mojdeh.sn@email.com</a></p>
+    </section>
+
+    <footer>
+        <p>© <span id="current-year"></span> Mojdeh Sana</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const yearSpan = document.getElementById('current-year');
+            const currentYear = new Date().getFullYear();
+            if (yearSpan) {
+                yearSpan.textContent = currentYear;
+            }
+        });
+    </script>
+</body>
+</html>
