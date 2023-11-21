@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1em;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    padding: 50px 10px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+header .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+section {
+    margin: 2em 5%;
+    padding: 2em;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #e1e1e1;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+
+#current-year {
+    font-weight: bold;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    nav a, .skills span {
+        margin-left: 10px;
+        font-size: 0.7em;
+    }
+
+    section {
+        margin: 1em;
+        padding: 1em;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+}
